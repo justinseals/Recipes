@@ -18,7 +18,7 @@
 		<a href="starters" class="starters">Starters</a> |           
 		<a href="desserts" class="desserts">Desserts</a> |
 		<a href="party" class="party selected">Party</a> | 
-		<a href="extras" class="extras">Extras</a> 
+		<a href="extras" class="extras">Extras</a>
 	</div>
       
     <div id="main" class="home-page">
