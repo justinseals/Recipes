@@ -14,7 +14,7 @@
 	<?php include '_includes/masthead.php'; ?> 
 	
     <div id="navigation">	  
-		<a href="/recipes" class="main-course selected">Main Courses3</a> | 
+		<a href="/recipes" class="main-course selected">Main Courses</a> | 
 		<a href="starters" class="starters">Starters</a> |           
 		<a href="desserts" class="desserts">Desserts</a> |
 		<a href="party" class="party">Party</a> | 
