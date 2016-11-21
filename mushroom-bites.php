@@ -2,7 +2,7 @@
 
 <head>
 
-	<title>Justin Seals Helpful Recipe Website - Blank Recipe</title>
+	<title>Justin Seals Helpful Recipe Website - Mushroom Bites</title>
     
 	<?php include '_includes/header-inc.php'; ?> 
 

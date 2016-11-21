@@ -28,6 +28,11 @@
 			<img src="_images/food-thumbs/item-thumb.png" alt="#" />
 			<p>Mushroom Bites</p>
 		</a><!--Recipe End-->
+
+		<a href="smoked-salmon-bites" class="recipe">
+			<img src="_images/food-thumbs/item-thumb.png" alt="#" />
+			<p>Smoked Salmon Bites</p>
+		</a><!--Recipe End-->
 					
     </div><!--Main End-->
     
