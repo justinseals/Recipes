@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+	html {min-height: 101%;}
+	
+	body {
+		margin: 0;
+		font-family: 'Roboto', sans-serif;
+		color:black;
+		background-color:#f6f6f6;
+		font-size:14px;
+		position:relative;
+	}
+
+.active {color:#8ac655; font-size:18px}
+
+a {color:#474e5c; text-decoration:none; font-size:16px; font-weight:normal; font-style: normal;}
+a:hover {color:#8ac655; text-decoration:none; font-size:16px; font-weight:normal; font-style: normal;}
+
+#navigation {text-align:center; color:#bcbdc0; font-size:22px;}
+#navigation a {color:#bcbdc0; text-decoration:none; font-size:18px; font-weight:normal; font-style: normal;}
+#navigation a:hover {color:#8ac655; text-decoration:none; font-size:18px; font-weight:normal; font-style: normal; cursor:pointer;}
+#navigation a.selected {color:#8ac655; text-decoration:none; font-size:18px; font-weight:normal; font-style: normal;}
+
+#links.inner {
+	clear:both;
+	padding:40px 0;
+}
+
+.notice {
+	color:#F00;
+	font-style:italic;
+}
+
+#links.inner {
+	text-align:center;
+}
+
+#links.inner a {
+	background:#8ac655;
+	text-shadow:0 1px 0 rgba(255,255,255,.3);
+	padding:10px 20px;
+	border:thin solid #f6f6f6;
+}
+
+	#links.inner a:hover {
+		color:#f6f6f6;
+		border:1px solid #474e5c;
+		text-shadow:0 0 3px rgba(0,0,0,.16);
+	}
+
+textarea {width:100%; height:auto; border:none; background:transparent;}
+
+img {border:none;}
+
+#pagewidth {width:100%; margin:auto;display:block;}
+
+@media only screen and (min-device-width: 1020px) {
+	#pagewidth {width:1020px;}
+}
+
+	#header {
+		position: relative;
+		background:#f6f6f6;
+		height : 120px;
+		padding-top:20px;
+	}
+	
+		#header a.logo {
+			background: left top url("_style-images/js-master-logo-small.png") no-repeat;
+			display:inline-block;
+			width:100px;
+			height:100px;
+			position:relative;
+		}
+		
+			#header a.logo span.starpline {
+				position:absolute;
+				bottom:8px;
+				left:40px;
+			}
+		
+	#main { 
+		position: relative;
+		margin:auto;
+		background:#f6f6f6;
+		color:black;
+		overflow:hidden;
+		margin:0 20px;
+		
+	}
+
+	#main.inner-recipe {
+		background:#fff;
+	}
+		
+	#footer {
+		position: relative;
+		background:#f6f6f6;
+		font-size:12px;
+		height:100px;
+		text-align:center;
+		padding-top:50px;
+		clear:both;
+	}
+
+#hero {
+	position:relative;
+	height:400px;
+}
+
+	#hero h1 {
+		position:absolute;
+		left:0px;
+		width:100%;
+		text-align:center;
+		top:120px;
+		color:#fff;
+		font-size:100px;
+		margin:0;
+		font-family:'Rancho', cursive;
+		text-shadow:0 0 3px rgba(0,0,0,.8);
+	}
+
+#ingredients {
+	position:relative;
+	float:left;
+	width:300px;
+	margin:0 20px;
+}
+
+#instructions {
+	position:relative;
+	float:left;
+	width:620px;
+	margin-right:20px;
+}
+
+a.recipe {
+	float:left;
+	display:block;
+	width:228px;
+	margin:0 20px 20px 0;
+	background:#8ac655;
+	border:thin solid #f6f6f6;
+	height:210px;
+	overflow:hidden;
+	text-shadow:0 1px 0 rgba(255,255,255,.3);
+}
+
+	a.recipe:nth-child(4n+1) {margin-right:0px;}
+
+		a.recipe:hover {
+			text-shadow:0 0 3px rgba(0,0,0,.16);
+			transition:all 300ms;
+			background:#474e5c;
+			color:#f6f6f6;
+		}
+	
+		a.recipe p {
+			padding:0 15px;
+			margin:10px 0;
+			overflow:hidden;
+		}
+		
+		a.recipe img {
+			width:228px;
+		}
+
+pre {margin:0px;}	
+
+	h1 {
+		font-family: 'Roboto', sans-serif;
+		font-size:18px;
+		padding-top:10px;
+		color:#474e5c;
+		font-weight:normal;
+	}
+	
+	h2 {
+		font-family: 'Roboto', sans-serif;
+		font-size:20px;
+		color:#8ac655;
+		padding-top:20px;
+		padding-bottom:0px;
+		margin:0px;	
+		border:0px;	
+		font-weight:normal;
+	}
+	
+	h3 {
+		font-family: 'Roboto', sans-serif;    
+		font-size:14px;
+		padding-top:5px;
+		border:0px;
+		margin:0px;
+		color:#9b9b9b;
+		font-weight:normal;
+		letter-spacing:.2pt;
+	}
+	
+	h4 {
+		font-family: 'Roboto', sans-serif;
+		font-size:14px;
+		color:#8ac655;
+		padding-top:10px;
+		padding-bottom:0px;
+		margin:0px;	
+		border:0px;	
+		font-weight:normal;
+		border-bottom:1px solid #8ac655;
+		padding-bottom:3px;
+	}
+	
+	
+@media only screen and (max-device-width: 480px) {
+
+	body {
+		margin:0 20px;
+	}
+	
+	#main {
+		margin:0;
+	}
+	
+	a.recipe {
+		width:100%;
+		margin-right:0px;
+		position:relative;
+		height:auto;
+	}
+	
+		a.recipe img {
+			width:100%;
+		}
+		
+	#hero {
+		height:auto;
+	}
+		#hero img {
+			width:100%;
+		}
+		
+		#hero h1 {
+			font-size:50px;
+			top:15px;
+		}
+	
+	#ingredients {
+		width:100%;
+		margin:0px;
+	}
+	
+		#ingredients p, #ingredients ul, #ingredients h2 {
+			margin-left:20px;
+		}
+	
+	#instructions {
+		width:100%;
+		margin:0px;
+	}
+	
+		#instructions p, #instructions ul, #instructions h2 {
+			margin-left:20px;
+		}
+
+}
+
+
