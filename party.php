@@ -24,7 +24,10 @@
     <div id="main" class="home-page">
 		<h1>A selection of Justin specials:</h1>
 		
-			Coming soon
+		<a href="mushroom-bites" class="recipe">
+			<img src="_images/food-thumbs/item-thumb.png" alt="#" />
+			<p>Mushroom Bites</p>
+		</a><!--Recipe End-->
 					
     </div><!--Main End-->
     
