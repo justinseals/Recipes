@@ -24,7 +24,7 @@
     <div id="main" class="home-page">
 		<h1>A selection of Justin specials:</h1>
 		
-			<a href="starters-dish/courgette-soup" class="recipe">
+			<a href="courgette-soup" class="recipe">
 				<img src="_images/food-thumbs/courgette-soup-thumb.png" alt="#" />
 				<p>Courgette Soup</p>
 			</a><!--Recipe End-->
